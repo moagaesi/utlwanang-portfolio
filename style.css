@@ -1,5 +1,7 @@
 
+/*GENERAL*/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 
 *{
@@ -9,7 +11,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 html{
@@ -248,16 +250,18 @@ section{
     position: relative;
 }
 
-.about-container {
+.about-containers {
     gap: 1rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    
+    margin-top: 3.5rem;
    
 }
 
 .about-details-container {
     justify-content: center;
     flex-direction: column;
+    margin-top: 2rem;
+   
 }
 
 .about-containers,
@@ -299,9 +303,9 @@ section{
 }
 
 .text-container {
-    margin-top: 1rem;
     padding: 1rem; 
-
+    margin-bottom: 3rem;
+    text-align: justify;
 }
 
 /*EXPERIENCE SECTION*/
